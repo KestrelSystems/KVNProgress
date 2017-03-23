@@ -654,7 +654,8 @@ static KVNProgressConfiguration *configuration;
 	CGFloat radius = (self.configuration.circleSize / 2.0f);
 	CGPoint center = CGPointMake(radius, radius);
 	
-	UIBezierPath *circlePath = [UIBezierPath bezierPathWithArcCenter:center
+	
+	*circlePath = [UIBezierPath bezierPathWithArcCenter:center
 															  radius:(radius - self.configuration.lineWidth)
 														  startAngle:GLKMathDegreesToRadians(-45.0f)
 															endAngle:GLKMathDegreesToRadians(275.0f)
@@ -680,8 +681,8 @@ static KVNProgressConfiguration *configuration;
 	
 	UIBezierPath *circlePath = [UIBezierPath bezierPathWithArcCenter:center
 															  radius:(radius - self.configuration.lineWidth)
-														  startAngle:GLKMathDegreesToRadians(-90.0f)
-															endAngle:GLKMathDegreesToRadians(275.0f)
+														  startAngle:GLKMathDegreesToRadians(-270.0f)
+															endAngle:GLKMathDegreesToRadians(90.0f)
 														   clockwise:YES];
 	
 	[self cancelCircleAnimation];
