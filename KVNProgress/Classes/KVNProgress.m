@@ -655,7 +655,7 @@ static KVNProgressConfiguration *configuration;
 	CGPoint center = CGPointMake(radius, radius);
 	
 	
-	*circlePath = [UIBezierPath bezierPathWithArcCenter:center
+	UIBezierPath *circlePath = [UIBezierPath bezierPathWithArcCenter:center
 															  radius:(radius - self.configuration.lineWidth)
 														  startAngle:GLKMathDegreesToRadians(-45.0f)
 															endAngle:GLKMathDegreesToRadians(275.0f)
