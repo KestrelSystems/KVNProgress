@@ -19,7 +19,7 @@
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
         return UIInterfaceOrientationMaskAll;
     }
-    return UIInterfaceOrientationMaskLandscape;
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 - (BOOL)shouldAutorotate
