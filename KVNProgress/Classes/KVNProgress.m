@@ -859,9 +859,9 @@ static KVNProgressConfiguration *configuration;
 - (void)setupMotionEffect
 {
 	//UIInterpolatingMotionEffect *xAxis = [self motionEffectWithType:UIInterpolatingMotionEffectTypeTiltAlongHorizontalAxis
-															keyPath:@"center.x"];
+														//	keyPath:@"center.x"];
 	//UIInterpolatingMotionEffect *yAxis = [self motionEffectWithType:UIInterpolatingMotionEffectTypeTiltAlongVerticalAxis
-															keyPath:@"center.y"];
+													//		keyPath:@"center.y"];
 	//UIMotionEffectGroup *group = [[UIMotionEffectGroup alloc] init];
 	//group.motionEffects = @[xAxis, yAxis];
 	
