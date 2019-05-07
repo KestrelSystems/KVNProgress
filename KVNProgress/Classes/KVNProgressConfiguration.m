@@ -33,6 +33,7 @@
 		
 		_successColor = [_statusColor copy];
 		_errorColor = [_statusColor copy];
+		
         _stopColor = [_statusColor copy];
 		
 		_minimumDisplayTime = 0.3f;
